@@ -1,17 +1,17 @@
 {
   "name": "dark",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "dark web framework",
+  "main": "./lib/dark",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/davidglivar/dark.git"
   },
   "author": "David Glivar <davidglivar@gmail.com>",
-  "license": "New BSD",
+  "license": "BSD",
   "bugs": {
     "url": "https://github.com/davidglivar/dark/issues"
   },
@@ -20,5 +20,10 @@
     "babel": "^4.7.8",
     "chai": "^2.1.1",
     "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "graceful-fs": "^3.0.6",
+    "private": "^0.1.6",
+    "readable-stream": "^1.0.33"
   }
 }
